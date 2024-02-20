@@ -5,10 +5,10 @@ using System.IO;
 
 public class Playerdata
 {
-    public string name;
-    public int level;
-    public int coin;
-    public int item;
+    public string name2;
+    public int level2;
+    public int coin2;
+    public int item2;
 }
 
 
