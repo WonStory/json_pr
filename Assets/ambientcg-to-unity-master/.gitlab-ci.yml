@@ -1,0 +1,13 @@
+
+pages:
+    image: alpine:latest
+    stage: deploy
+    script:
+        - mkdir public
+        - cp "Assets/Burning Mime Software/AmbientCG Importer/README.html" "public/index.html"
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
+

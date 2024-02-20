@@ -1,0 +1,21 @@
+# IDE and other files
+.idea
+*.user
+*.pdb
+*.kate-swp
+.vscode
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# Unity artifacts
+/Debug
+/Library
+/Logs
+/obj
+/builds
+/Temp
+/UserSettings
+/*.csproj
+/*.sln
+/Packages/packages-lock.json
