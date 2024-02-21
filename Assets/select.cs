@@ -82,7 +82,7 @@ public class select : MonoBehaviour
     { //여기에다가 이름 덮어쓰기를 넣으면 이름을 계속 덮어씀 => 제대로 분리를 해줘야댐
         if (!savefile[DataManager.instance.nowSlot])
             {
-                DataManager.instance.nowPlayer.name = newPlayerName.text + "\n" +DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"); //현재 슬롯에 이름이 없다면 덧씌워라
+                DataManager.instance.nowPlayer.name = newPlayerName.text; //+ "\n" +DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"); //현재 슬롯에 이름이 없다면 덧씌워라
                 DataManager.instance.SaveData();
             }
         SceneManager.LoadScene(1);

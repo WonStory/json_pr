@@ -6,9 +6,9 @@ using System.IO;
 public class Playerdata
 {
     public string name;
-    public int level;
-    public int coin;
-    public int item;
+    public int level = 1;
+    public int coin = 100;
+    public int item = -1;
 }
 
 
