@@ -5,7 +5,7 @@ using System.IO;
 
 public class Playerdata
 {
-    public string story;
+    public string story2;
     public int level2;
     public int coin2;
     public int item2;
