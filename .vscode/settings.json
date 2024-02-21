@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "json_prac.sln"
+    "dotnet.defaultSolution": "json_pr-2.sln"
 }
